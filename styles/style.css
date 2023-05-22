@@ -123,9 +123,14 @@
 }
 .grid-container-nosotros {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
+@media (max-width: 767px) {
+    .grid-container-nosotros {
+      grid-template-columns: 1fr;
+    }
+  }
 .grid-item-text {
     padding: 10%;
     /*typography*/
