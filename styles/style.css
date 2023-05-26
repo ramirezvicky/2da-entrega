@@ -4,15 +4,19 @@
   margin: 0; 
   padding: 0;
 }
+/*navbar*/
 
-.bg-nav-camino {
+.nav-camino {
     background-color: none;
     font-size: 1.5rem;
 }
+
 .logo {
     /*Box-model*/
+    display: flex;
     width: 60px;
     height: 60px;
+    order: -2;
 }
 
 /*main*/
